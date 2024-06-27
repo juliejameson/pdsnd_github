@@ -4,7 +4,7 @@
 This file was created on June 26, 2026.
 
 ### Project Title
-Github Project
+Explore US Bikeshare Data
 
 ### Description
  A tool to uncover bike share usage patterns. The data is provided by Motivate, a bike share system provider for many cities in the United States.
