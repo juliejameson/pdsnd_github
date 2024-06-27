@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+# the only cities with available data are chicago, new york city, and washington
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -146,8 +147,8 @@ def station_stats(df):
     popular_start_end_station = df['Combo Station'].mode()[0]
     print('Most frequent combination of start station and end station trip:', popular_start_end_station)
         
-    print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    #print("\nThis took %s seconds." % (time.time() - start_time))
+    #print('-'*40)
 
 
 def trip_duration_stats(df):
