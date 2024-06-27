@@ -15,6 +15,7 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
-### Credits
+### Future Scope
+In the future, more functions that compute statistics will be added to answer more questions about the data. The possibilities of improving the interactive experience (e.g turning this script into a web app) will also be explored.
 
 
